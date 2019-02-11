@@ -212,4 +212,53 @@ F 3 "~" H 5450 3300 50  0001 C CNN
 	1    5450 3300
 	1    0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 5C4F3E09
+P 7500 2850
+F 0 "J5" H 7580 2892 50  0000 L CNN
+F 1 "X Endstop" H 7580 2801 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B03B-XH-AM_1x03_P2.50mm_Vertical" H 7500 2850 50  0001 C CNN
+F 3 "~" H 7500 2850 50  0001 C CNN
+	1    7500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 5C4F3E8F
+P 7500 3400
+F 0 "J6" H 7580 3442 50  0000 L CNN
+F 1 "Z Endstop" H 7580 3351 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B03B-XH-AM_1x03_P2.50mm_Vertical" H 7500 3400 50  0001 C CNN
+F 3 "~" H 7500 3400 50  0001 C CNN
+	1    7500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5C4F3ED4
+P 7500 3850
+F 0 "J7" H 7580 3842 50  0000 L CNN
+F 1 "Pin14 & GND" H 7580 3751 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical" H 7500 3850 50  0001 C CNN
+F 3 "~" H 7500 3850 50  0001 C CNN
+	1    7500 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 2850 0    50   Input ~ 0
+X_Sig
+Text GLabel 7300 2950 0    50   Input ~ 0
+Vcc_X
+Text GLabel 7300 2750 0    50   Input ~ 0
+GND
+Text GLabel 7300 3500 0    50   Input ~ 0
+Vcc_Z
+Text GLabel 7300 3400 0    50   Input ~ 0
+GND
+Text GLabel 7300 3300 0    50   Input ~ 0
+Z_Sig
+Text GLabel 7300 3850 0    50   Input ~ 0
+Pin14
+Text GLabel 7300 3950 0    50   Input ~ 0
+GND
 $EndSCHEMATC

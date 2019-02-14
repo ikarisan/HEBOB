@@ -81,9 +81,9 @@ Text GLabel 5050 2550 0    50   Input ~ 0
 HOT_A
 Text GLabel 5050 2450 0    50   Input ~ 0
 HOT_B
-Text GLabel 5050 2350 0    50   Input ~ 0
-THERM_A
 Text GLabel 5050 2250 0    50   Input ~ 0
+THERM_A
+Text GLabel 5050 2350 0    50   Input ~ 0
 THERM_B
 Wire Wire Line
 	5050 2250 5250 2250
@@ -123,11 +123,11 @@ Text GLabel 4050 3350 2    50   Input ~ 0
 X_Sig
 Wire Wire Line
 	3800 3350 4050 3350
-Text GLabel 4050 3150 2    50   Input ~ 0
+Text GLabel 4050 3050 2    50   Input ~ 0
 Vcc_Z
 Text GLabel 4050 2850 2    50   Input ~ 0
 GND
-Text GLabel 4050 3050 2    50   Input ~ 0
+Text GLabel 4050 3150 2    50   Input ~ 0
 Z_Sig
 Text GLabel 4050 3650 2    50   Input ~ 0
 E3D_N
@@ -267,4 +267,19 @@ F 3 "~" H 5450 4150 50  0001 C CNN
 $EndComp
 Text GLabel 3500 2550 1    50   Input ~ 0
 GND
+$Comp
+L Connector:Screw_Terminal_01x02 J10
+U 1 1 5C65B259
+P 6700 3750
+F 0 "J10" H 6780 3742 50  0000 L CNN
+F 1 "GND & Pin14" H 6780 3651 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal" H 6700 3750 50  0001 C CNN
+F 3 "~" H 6700 3750 50  0001 C CNN
+	1    6700 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 3750 0    50   Input ~ 0
+GND
+Text GLabel 6500 3850 0    50   Input ~ 0
+Pin14
 $EndSCHEMATC
